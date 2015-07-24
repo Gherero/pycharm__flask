@@ -1,8 +1,4 @@
-from app import app
-
-@app.route('/')
-def hello_world():
-    return 'Hello World!'
+from views import app
 
 
 if __name__ == '__main__':

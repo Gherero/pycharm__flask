@@ -11,10 +11,12 @@ def hello_world():
 def registration():
     form = Registform
     name= form.name.data
-    l_name=form.lastname.data
-    file_server_access=form.file_server.data
-    internet_access=form.internet.data
-    mail_access=form.mail.data
+    #l_name=form.lastname.data
+    #file_server_access=form.file_server.data
+    #internet_access=form.internet.data
+    #mail_access=form.mail.data
+    print(name)
     return render_template('register.html', form=form)
+
 
 
